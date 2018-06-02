@@ -91,3 +91,22 @@ img {
         margin: 10px; }
 
 /* Iconen */
+
+.Iconen1 {
+    height: 250px;
+    margin: 10px;
+}
+
+.Iconen2 {
+    background: #262E30;
+    height: 250px;
+    margin: 10px;
+}
+
+/* lettertypes */
+
+.Regular {font-family: Quicksand }
+.Light {}
+.Medium {}
+.Bold {}
+.Century{}
