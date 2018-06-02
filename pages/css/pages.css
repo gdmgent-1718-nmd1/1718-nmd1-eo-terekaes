@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Quicksand,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -9,7 +9,7 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
-    
+
 }
 
 img {
@@ -17,3 +17,53 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+.container{ 
+    background: #262E30;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 8pt;
+    text-align: center ;
+     }
+
+.item1 {
+        background:  #FFFFFF;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        }
+
+.item2 {
+         background: #1098CC;
+         width: 100px;
+         height: 100px;
+         margin: 10px;
+            }
+.item3 {
+          background: #3E7F99;
+          width: 100px;
+          height: 100px;
+          margin: 10px;
+                   }
+ .item4 {
+         background:#6BBFA0 ;
+         width: 100px;
+         height: 100px;
+         margin: 10px;
+         }
+.item5 {
+         background:#EA5245 ;
+         width: 100px;
+        height: 100px;
+        margin: 10px;
+         }
+
+.item6 {
+         background:#CD1439 ;
+         width: 100px;
+         height: 100px;
+         margin: 10px;
+         }
