@@ -113,7 +113,7 @@ img {
 
 /* Indeling tekst */
 
-.container2 {background: #262E30;
+.container2 {
     justify-content: center;
     align-items: baseline;
     text-align: center }
@@ -121,26 +121,32 @@ img {
 .title1 {
         font-weight: 700;
         color:#CD1439;
-        font-size: 28pt;}
+        font-size: 28pt;
+        margin:15px;
+    }
 
 .undertitle1 {
     font-weight: 500;
     color:#FFFFFF;
     font-size: 22pt;
+    margin:15px;
 }
 
 .tekst1{ 
     font-weight: 400;
     color:#6BBFA0;
     font-size: 22pt;
+    margin:15px;
 }
 
 .title2 {
     font-weight: 400;
     color:#6BBFA0;
-    font-size: 25pt;}
+    font-size: 25pt;
+    margin:15px;}
 
 .title3 {
     font-weight: 700;
     color:#FFFFFF;
-    font-size: 28pt;}
+    font-size: 28pt;
+    margin:15px;}
