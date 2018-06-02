@@ -105,8 +105,8 @@ img {
 
 /* lettertypes */
 
-.Regular {font-family: Quicksand }
-.Light {}
-.Medium {}
-.Bold {}
-.Century{}
+.Regular { font-weight: 400; }
+.Light {font-weight: 300;}
+.Medium {font-weight:500;}
+.Bold {font-weight:700;}
+.Century{font-family: Century;}
