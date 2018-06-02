@@ -18,6 +18,8 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
+/* Kleuren */
+
 .container{ 
     background: #262E30;
     display: flex;
@@ -67,12 +69,25 @@ img {
          height: 100px;
          margin: 10px;
          }
-         
+
+/* Logo */
+
 .Logo1 {       
-    height: 200px;
+    height: 150px;
     margin: 10px; }
     
 .Logo2 { 
         background: #262E30;    
-        height: 200px;
+        height: 150px;
         margin: 10px; }
+
+.Logo3 {     
+    height: 150px;
+    margin: 10px; }
+
+.Logo4 { 
+        background: #6BBFA0 ;    
+        height: 150px;
+        margin: 10px; }
+
+/* Iconen */
