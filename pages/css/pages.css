@@ -113,11 +113,27 @@ img {
 
 /* Indeling tekst */
 
+.container2 {background: #262E30;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center }
+
 .title1 {
         font-weight: 700;
         color:#CD1439;
-        font-size: 32pt;}
+        font-size: 28pt;}
 
+.undertitle1 {
+    font-weight: 500;
+    color:#FFFFFF;
+    font-size: 22pt;
+}
+
+.tekst1{ 
+    font-weight: 400;
+    color:#6BBFA0;
+    font-size: 22pt;
+}
 
 .title2 {
     font-weight: 400;
@@ -125,8 +141,6 @@ img {
     font-size: 25pt;}
 
 .title3 {
-    background:#262E30;
     font-weight: 700;
     color:#FFFFFF;
-    font-size: 28pt;
-    padding: 20px;}
+    font-size: 28pt;}
