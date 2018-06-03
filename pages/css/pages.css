@@ -103,17 +103,38 @@ img {
     margin: 10px;
 }
 
+.social media { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;  
+    margin: 5px;  
+}
+
 /* lettertypes */
 
-.Regular { font-weight: 400; }
-.Light {font-weight: 300;}
-.Medium {font-weight:500;}
-.Bold {font-weight:700;}
-.Century{font-family: Century;}
+.Quicksand { 
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    text-align: left;
+    }
+.Regular { font-weight: 400;
+            margin:10px; }
+.Light {font-weight: 300;
+         margin:10px;}
+.Medium {font-weight:500;
+         margin:10px;}
+.Bold {font-weight:700;
+         margin:10px;}
+.Century{font-family: Century;
+         margin:10px;}
 
 /* Indeling tekst */
 .container1{ 
-    background: #262E30;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -123,76 +144,87 @@ img {
      }
 
 .list {
+    background: #262E30;
     text-align: left;
-    margin: 15px;
+    margin: 20px;
+    max-height: 600px;
+    width: 300px;
 }
 
 
 .title1 {
         font-weight: 700;
         color:#CD1439;
-        font-size: 28pt;
+        font-size: 18pt;
         padding:8px;
     }
 
 .undertitle1 {
     font-weight: 500;
     color:#FFFFFF;
-    font-size: 20pt;
-    padding:8px;
+    font-size: 16pt;
+    padding:6px;
 }
 
 .tekst1{ 
     font-weight: 400;
     color:#6BBFA0;
-    font-size: 18pt;
-    padding:8px;
-    word-spacing: 2pt;
-    margin-right: 450px;
-    margin-bottom: 20px;} 
+    font-size: 14pt;
+    padding:6px;
+    word-spacing: 1pt;
+    margin:10px;} 
 
 .green {
+    background: #262E30;
     text-align: left;
-    margin: 15px;
+    margin: 20px;
+    max-height: 600px;
+    width: 300px;
+
 }
 
 .title2 {
     font-weight: 400;
     color:#6BBFA0;
-    font-size: 20pt;
-    padding:8px;}
+    font-size:16pt;
+    padding:6px;}
 
 .undertitle2 {
         font-weight: 500;
         color:#FFFFFF;
-        font-size: 15pt;
-        padding:8px;
+        font-size: 13pt;
+        padding:6px;
+        
     }
     
 .tekst2{ 
         font-weight: 400;
         color:#6BBFA0;
-        font-size: 15pt;
-        padding: 8px;
+        font-size: 13pt;
         word-spacing: 1pt; 
+        padding: 6px;
     }
 
 .white {
+        background: #262E30;
         text-align: left;
-        margin: 50 px;
+        margin: 25px;
+        max-height: 700px;
+        width: 300px;
     }
 
 .title3 {
     font-weight: 700;
     color:#FFFFFF;
-    font-size: 28pt;
-    padding:8px;}
+    font-size: 20pt;
+    word-spacing: 2px;
+    padding:20px;}
 
 .undertitle3 {
         font-weight: 500;
         color:#FFFFFF;
         font-size: 16pt;
-        padding: 8px;
+        padding: 6px;
     }
     
 .tekst3{ 
@@ -201,6 +233,7 @@ img {
         font-size: 12pt;
         padding:5px;
         word-spacing: 1pt;
+        margin: 6px;
     }
 
 /* navigatie */
