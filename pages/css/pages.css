@@ -104,12 +104,15 @@ img {
 }
 
 .social media { 
+    width: 30px;
+    height:30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: baseline;  
     margin: 5px;  
+
 }
 
 /* lettertypes */
