@@ -103,17 +103,25 @@ img {
     margin: 10px;
 }
 
-.social media { 
-    width: 30px;
-    height:30px;
+.social{ 
+    height:50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: baseline;  
-    margin: 5px;  
-
+    align-content: space-around;
+    align-self: auto;
+    padding: 20px;
+    margin:20px;
 }
+
+.I1{margin:10px; }
+.I2{margin:10px; }
+.I3{margin:10px; }
+.I4{margin:10px; }
+.P1{margin:5px; }
+.P2{margin:5px; }
+
+
 
 /* lettertypes */
 
